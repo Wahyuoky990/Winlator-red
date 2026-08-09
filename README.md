@@ -77,18 +77,7 @@ Ada konfigurasi spesifik untuk:
 ```ini
 [steam.exe]
 BOX64_ENV=WINEARGS=-high -noshaders -nooverlay -no-browser ...
-```
-
-Menonaktifkan fitur Steam yang tidak perlu untuk performa.
-
 8. .NET Framework Bypass
-
-```ini
-[*dotnetfx35*]
-BOX64_EXIT=1
-```
-
-Menghentikan installer .NET Framework karena tidak diperlukan.
 
 Kesimpulan
 
